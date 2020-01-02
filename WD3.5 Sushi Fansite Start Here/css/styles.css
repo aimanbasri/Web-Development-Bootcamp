@@ -1,0 +1,45 @@
+body{
+    background-color: whitesmoke ;
+}
+
+h1{
+    color: red;
+}
+/*
+img{
+    background-color: red ;
+}
+*/
+
+/* CSS Class Selector
+    -Class can be applied to many 
+    individual elements that share the same style.
+    Each element can have more than one class.
+*/
+img:hover{
+    background-color: green;
+}
+
+.sushi{
+    background-color: blue;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+
+
+/* CSS ID Selector
+    -ID is unique for each individual element. More specific. 
+    - Only one ID per element
+*/
+#firstline{
+    color: purple;
+}
+#nigiri{
+    background-color: red;
+}
+#nigiri:hover{
+    background-color: orange;
+}
